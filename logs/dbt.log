@@ -1,0 +1,58 @@
+[0m13:10:56.378016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E4DD9A2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E4E802BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E4E801CA0>]}
+
+
+============================== 13:10:56.528734 | e43d378e-e780-45f5-9446-2d0effd9d7a3 ==============================
+[0m13:10:56.528734 [info ] [MainThread]: Running with dbt=1.11.2
+[0m13:10:56.546052 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Nascimento\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:11:48.362287 [debug] [MainThread]: Starter project path: C:\Users\Nascimento\Germano\Jornada de Dados\dw_cotacao\venv\Lib\site-packages\dbt\include\starter_project
+[0m13:11:48.451948 [info ] [MainThread]: 
+Your new dbt project "dw_commodities" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:11:48.461477 [info ] [MainThread]: Setting up your profile.
+[0m13:16:14.868470 [info ] [MainThread]: Profile dw_commodities written to C:\Users\Nascimento\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:16:14.874470 [debug] [MainThread]: Command `dbt init` succeeded at 13:16:14.873467 after 319.21 seconds
+[0m13:16:14.878468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E50B93DA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E510FB470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E50A7BE90>]}
+[0m13:16:14.879469 [debug] [MainThread]: Flushing usage events
+[0m13:16:17.387434 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:04:56.806890 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5C9768860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5C9768C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5C9C65310>]}
+
+
+============================== 17:04:56.829914 | 582f7185-3f2e-44a0-84f4-e631189f48d8 ==============================
+[0m17:04:56.829914 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:04:56.840301 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Nascimento\\.dbt', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:05:15.004907 [debug] [MainThread]: Starter project path: C:\Users\Nascimento\Germano\Jornada de Dados\dw_cotacao\venv\Lib\site-packages\dbt\include\starter_project
+[0m17:05:15.142480 [info ] [MainThread]: 
+Your new dbt project "dw_comodities" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:05:15.153967 [info ] [MainThread]: Setting up your profile.
+[0m17:06:47.883198 [info ] [MainThread]: Profile dw_comodities written to C:\Users\Nascimento\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:06:47.893210 [debug] [MainThread]: Command `dbt init` succeeded at 17:06:47.892315 after 111.90 seconds
+[0m17:06:47.894542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5C7656B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5C96C6C00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5C9D73EF0>]}
+[0m17:06:47.899406 [debug] [MainThread]: Flushing usage events
+[0m17:06:49.694446 [debug] [MainThread]: An error was encountered while trying to flush usage events
